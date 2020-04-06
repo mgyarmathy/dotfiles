@@ -7,6 +7,7 @@ cp .bash_profile ~/.bash_profile
 
 # install Snazzy theme
 curl -s -o tmp/Snazzy.terminal https://raw.githubusercontent.com/sindresorhus/terminal-snazzy/master/Snazzy.terminal
+open tmp/Snazzy.terminal
 
 # install Homebrew
 if ! [ -x "$(command -v brew)" ]; then
