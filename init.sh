@@ -6,7 +6,7 @@ mkdir -p tmp
 cp .bash_profile ~/.bash_profile
 
 # install Snazzy theme
-curl -s -o tmp/Snazzy.terminal https://github.com/sindresorhus/terminal-snazzy/raw/master/Snazzy.terminal
+curl -s -o tmp/Snazzy.terminal https://raw.githubusercontent.com/sindresorhus/terminal-snazzy/master/Snazzy.terminal
 
 # install Homebrew
 if ! [ -x "$(command -v brew)" ]; then
@@ -24,7 +24,7 @@ brew cask install \
   dropbox \
   google-chrome \
   notion \
-  sourcetree \ 
+  sourcetree \
   spectacle \
   spotify \
   visual-studio-code \
