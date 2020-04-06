@@ -15,10 +15,6 @@ fi
 
 # install packages
 brew install \
-  docker \
-  kubernetes-cli \
-  minikube \
-  python \
   watch \
 
 # install applications
@@ -35,8 +31,6 @@ brew cask install \
 
 # vscode extensions
 code \
-  --install-extension dart-code.dart-code \
-  --install-extension ms-python.python \
   --install-extension ms-vsliveshare.vsliveshare \
 
 # additional utilities
