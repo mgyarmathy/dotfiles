@@ -22,6 +22,7 @@ brew cask install \
   aware \
   docker \
   dropbox \
+  flux \
   google-chrome \
   notion \
   sourcetree \
