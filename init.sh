@@ -12,8 +12,6 @@ open tmp/Snazzy.terminal
 # install Homebrew
 if ! [ -x "$(command -v brew)" ]; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.bash_profile
-  source ~/.bash_profile
 fi
 
 # install applications
